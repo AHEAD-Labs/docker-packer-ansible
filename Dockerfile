@@ -20,7 +20,7 @@ RUN echo "===> Installing Ansible..."  && \
 
 ## Extra tools
 RUN echo "===> Installing extra tools"  && \
-    apk --update add sshpass openssh-client rsync
+    apk --update add sshpass openssh-client rsync jq
 
 # Cleanup
 RUN echo "===> Removing package list..."  && \
